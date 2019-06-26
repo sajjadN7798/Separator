@@ -1,4 +1,3 @@
-# separator
 Separator(divider) for card number
 
 Usage:
