@@ -1,6 +1,6 @@
 var LIMIT = 25;
 $(document).ready(function () {
-    $('input[data-type="cart-no"]').on('keyup keypress blur', function (e) {
+    $('input[data-type="card-no"]').on('keyup keypress blur', function (e) {
         let VAL = $(this).val();
         let LEN = $(this).val().length;
         $(this).attr('maxlength', LIMIT);
