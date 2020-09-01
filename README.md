@@ -1,4 +1,4 @@
-Separator(divider) for card number with jquery
+Separator for card number with jquery
 
 # Usage:
 
