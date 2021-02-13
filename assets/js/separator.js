@@ -6,9 +6,7 @@ $(document).ready(function () {
     var length = $(this).val().length;
     $(this).attr("maxlength", limit);
     for (var i = 1; i <= length; i += 7) {
-      if (length - 3 === i) {
-        $(this).val(value + " - ");
-      }
+      length - 3 === i && $(this).val(value + " - ");
     }
     if (length - 3 === 22) {
       var removeLastDash = value.substr(0, length);
@@ -22,7 +20,7 @@ $(document).ready(function () {
           ""
         )
     );
-    if (e.which < 48 || e.which > 57) e.preventDefault();
+    e.which < 48 || (e.which > 57 && e.preventDefault());
   });
 });
 
