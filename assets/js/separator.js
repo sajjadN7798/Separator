@@ -16,7 +16,7 @@ $(document).ready(function () {
       $(this)
         .val()
         .replace(
-          /[!@#$%^&*()_+|AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzاآبپتثجچ‌حخدذرز‌ژس‌شصضطظعغفقکگلمنوهی].+/g,
+          /[!@#$%^&*()_+|AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzاآبپتثجچ‌حخدذرز‌ژس‌شصضطظعغفقکگلمنوهی,./,';{},].+/g,
           ""
         )
     );
